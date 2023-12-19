@@ -1,0 +1,41 @@
+#+title: SIMULACRUM
+
+* Roadmap
+
+** Setup and familiarize with libs and articles
+
+** Core System Design
+
+*** Basic Architecture
+= data structures for voxel representation chunks, octrees
+- rendering pipeline vertex ,frag ,frame buff
+- input handling and camera control
+
+*** Basic Funcs
+- creating visualizing voxel scenes
+- handling basic user input, camera mov
+- managing memory fo efficient voxel data
+
+** Rendering and Lighting
+
+*** Advanced Rendering Techniques
+- implement lighting models diffuse, specular, shadows
+- integrate textures and materials for visual variety
+- optimize rendering performance for larger scenes and higher frame rates
+
+*** World Generation & Chunk Management
+- implement a basic world generation system Perlin noise, procedural generation
+- design and implement a chunk loading and unloading system for dynamic world updates
+- optimize chunk generation and management for memory usage and performance
+
+** Interaction and Gameplay
+
+*** Player Interaction & Physics
+- collision with voxel
+- consider physics simulation for dynamic object interactions
+- design and implement basic gameplay mechanics block placement, destruction
+
+*** Polishing and Enhancement
+- sounds
+- UI
+- refactor optimize
